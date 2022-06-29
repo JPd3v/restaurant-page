@@ -1,0 +1,24 @@
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/background.jpg);
+}
+
+.homepage .homepage-title {
+    background: rgb(80, 161, 253);
+    color: white;
+    margin: 10px 0px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.pizza-img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.pizza-img-wrapper>img {
+    width: 60%;
+}

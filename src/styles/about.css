@@ -1,0 +1,26 @@
+.about-module{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/background.jpg);
+}
+
+.about-module img{
+    max-width: 500px
+}
+
+.about-img-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-information{
+    background: rgb(80, 161, 253);
+    color: white;
+    padding: 12px;
+    border-radius: 11px;
+    margin: 15px 0px;
+}
+

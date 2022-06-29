@@ -1,0 +1,34 @@
+.menu-module {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(240px, 300px));
+    justify-content: center;
+    background-image: url(../images/background.jpg);
+    gap: 15px;
+    padding-top: 15px;
+}
+
+.card {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(80, 161, 253);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    gap: 15px;
+    font-size: 16px;
+    padding:10px;
+}
+
+.card img {
+    max-width: 235px;
+    min-width: 235px;
+    max-height: 157px;
+    min-height: 157px;
+}
+
+.card>div {
+    font-size: 30px;
+}
